@@ -8,7 +8,7 @@ const jogos = [
     { nome: 'Enduro', imagem: 'morris.webp' },
     { nome: 'Donkey Kong', imagem: 'Donkey Kong.jpg' },
     { nome: 'Galaxy', imagem: 'Galaxy.jpg' },
-    { nome: 'Crash', imagem: 'crash.jpg' },   
+    { nome: 'Crash', imagem: 'crash.jpg' },  
     // ... adicione os demais jogos aqui ...
 ];
 
@@ -24,3 +24,4 @@ function criarGameBox(jogo) {
 jogos.forEach(jogo => {
     container.appendChild(criarGameBox(jogo));
 });
+
